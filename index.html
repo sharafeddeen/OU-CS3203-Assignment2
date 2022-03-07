@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <Title>Assignment 1</Title>
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+
+    <h1>Assignment 1: Parsing Twitter Data from JSON Format</h1>
+    
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>Tweet Content</th>
+                <th>Date/Time Created</th>
+            </tr>
+        </thead>
+        <tbody id="tweet-table"></tbody>
+    </table>
+    <button id="get-tweets">Get All Tweets!</button>
+
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>User ID List</th>
+            </tr>
+        </thead>
+        <tbody id="id-table"></tbody>
+    </table>
+    <button id="get-ids">Get All User ID's!</button>
+
+    <hr>
+    <form id="tweet-from-id">
+        To get a tweet, enter its ID: 
+        <input id="enter-tweet-id" type="text" value="">
+        <input type="submit">
+    </form>
+    <button type="button" id="submit-tweet-id">Submit!</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Tweet Text</th>
+                <th>Tweet Created At</th>
+            </tr>
+        </thead>
+        <tbody id="tweet-from-id-table"></tbody>
+    </table>
+
+    <hr>
+    <form>
+        Enter ID: 
+        <input id="create-tweet-id" type="text" value="" name="tweetID">
+        Enter Text: 
+        <input id="create-tweet-text" type="text" value="" name="tweetText">
+        <input type="submit"  onclick=""/>
+    </form>
+
+
+</body>
+</html>

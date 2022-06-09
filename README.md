@@ -2,7 +2,7 @@
 A repo for assignment 1 (CLASS: Software Engineering, SESSION: Spring '22).
 
 ## What is Assignment 1?
-It's a piece of software created to analyze a JSON file containing tweets (and related metadata) pulled from Twitter.
+It's a piece of code created to analyze a JSON file containing tweets (and related metadata) pulled from Twitter.
 The code can:
   1)  Show tweets in a table format,
   2)  Get ID's of users who made those tweets, and
